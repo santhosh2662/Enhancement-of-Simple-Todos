@@ -1,0 +1,34 @@
+dependencies:
+  react-router-dom: 6.24.0
+lockfileVersion: 5.2
+packages:
+  /@remix-run/router/1.17.0:
+    dev: false
+    engines:
+      node: '>=14.0.0'
+    resolution:
+      integrity: sha512-2D6XaHEVvkCn682XBnipbJjgZUU7xjLtA4dGJRBVUKpEaDYOZMENZoZjAOSb7qirxt5RupjzZxz4fK2FO+EFPw==
+  /react-router-dom/6.24.0:
+    dependencies:
+      '@remix-run/router': 1.17.0
+      react-router: 6.24.0
+    dev: false
+    engines:
+      node: '>=14.0.0'
+    peerDependencies:
+      react: '>=16.8'
+      react-dom: '>=16.8'
+    resolution:
+      integrity: sha512-960sKuau6/yEwS8e+NVEidYQb1hNjAYM327gjEyXlc6r3Skf2vtwuJ2l7lssdegD2YjoKG5l8MsVyeTDlVeY8g==
+  /react-router/6.24.0:
+    dependencies:
+      '@remix-run/router': 1.17.0
+    dev: false
+    engines:
+      node: '>=14.0.0'
+    peerDependencies:
+      react: '>=16.8'
+    resolution:
+      integrity: sha512-sQrgJ5bXk7vbcC4BxQxeNa5UmboFm35we1AFK0VvQaz9g0LzxEIuLOhHIoZ8rnu9BO21ishGeL9no1WB76W/eg==
+specifiers:
+  react-router-dom: 6.24.0
